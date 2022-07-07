@@ -1,4 +1,8 @@
-.title {
+.title,
+.title.burger,
+.title.pizza,
+.title.milanesa
+ {
     background-color: red;
     color: black;
     font-size: 50px;
@@ -6,7 +10,18 @@
     text-align: center;
     font-family: sans-serif, Arial, Helvetica;
 }
-
+.title.burger {
+    background-color: navy;
+    color: white;
+}
+.title.pizza {
+    background-color: wheat;
+    color: lightcoral;
+}
+.title.milanesa {
+    background-color: aquamarine;
+    color: grey;
+}
 .bullet_point,
 .recipe_name {
     background-color: lightblue;
@@ -14,4 +29,16 @@
     font-size: 40px;
     font-weight: 300;
     font-family: sans-serif, Arial, Helvetica;
+}
+.burger {
+    background-color: lightblue;
+}
+
+.pizza {
+    background-color: wheat;
+
+}
+
+.milanesa {
+    background-color: aquamarine;
 }
